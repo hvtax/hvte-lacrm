@@ -6,6 +6,8 @@
 // @author      Thomas Bridgman (tom@hvtaxexperts.com)
 // @match       https://account.lessannoyingcrm.com/app/View_Contact*
 // @grant       none
+// @updateURL
+// @downloadURL 
 // ==/UserScript==
 
 (function() {
