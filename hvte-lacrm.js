@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        HVTE Extensions for LACRM
 // @namespace   http://tampermonkey.net/
-// @version     1.7
+// @version     1.8
 // @description Adds a context menu to LACRM contact pages to provid3e additional functions.
 // @author      Thomas Bridgman (tom@hvtaxexperts.com)
 // @match       https://account.lessannoyingcrm.com/app/View_Contact*
@@ -29,6 +29,12 @@
             name: 'Payment',
             urlTemplate: function(contactId) {
                 return `https://www.cognitoforms.com/HudsonValleyTaxExperts1/ClientPayment2?entry={'LACRMContact':'${contactId}'}`;
+            }
+        },
+        {
+            name: 'New Contact',
+            urlTemplate: function(contactId) {
+                return `https://www.cognitoforms.com/hudsonvalleytaxexperts1/createlacrmcontact`;
             }
         }
         // Add more menu items here
