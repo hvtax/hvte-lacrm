@@ -6,8 +6,8 @@
 // @author      Thomas Bridgman (tom@hvtaxexperts.com)
 // @match       https://account.lessannoyingcrm.com/app/View_Contact*
 // @grant       none
-// @updateURL   https://raw.githubusercontent.com/hvtax/hvte-lacrm/refs/heads/main/hvte-lacrm.js
-// @downloadURL https://raw.githubusercontent.com/hvtax/hvte-lacrm/refs/heads/main/hvte-lacrm.js
+// @updateURL   https://raw.githubusercontent.com/hvtax/hvte-lacrm/refs/heads/main/hvte-lacrm.user.js
+// @downloadURL https://raw.githubusercontent.com/hvtax/hvte-lacrm/refs/heads/main/hvte-lacrm.user.js
 // ==/UserScript==
 
 (function() {
