@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name        HVTE Extensions for LACRM
 // @namespace   http://tampermonkey.net/
-// @version     1.6
-// @description Adds an HVTE button with a context menu to LACRM contact pages to provid3e additional functions.
+// @version     1.7
+// @description Adds a context menu to LACRM contact pages to provid3e additional functions.
 // @author      Thomas Bridgman (tom@hvtaxexperts.com)
 // @match       https://account.lessannoyingcrm.com/app/View_Contact*
 // @grant       none
-// @updateURL
-// @downloadURL 
+// @updateURL   https://raw.githubusercontent.com/hvtax/hvte-lacrm/refs/heads/main/hvte-lacrm.js
+// @downloadURL https://raw.githubusercontent.com/hvtax/hvte-lacrm/refs/heads/main/hvte-lacrm.js
 // ==/UserScript==
 
 (function() {
